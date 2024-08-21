@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    background-image: url(https://img.freepik.com/premium-photo/focused-young-african-american-businesswoman-student-looking-laptop-serious-black-woman-working-studying-with-computer-doing-research-preparing-exam-online_255667-24529.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+.navtext1{
+    width: 30%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3%;
+    margin-left: 3%;
+}
+.navtext2{
+    width: 30%;
+    height: 50px;
+    /* background-color: red;   */
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middletext{
+    height: 220px;
+    width: 40%;
+    /* background-color: brown; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6%;
+    gap: 5%;
+}
+.middletext1{
+    color: white;
+    font-size: 25px;
+}
+.middletext2{
+    color: white;
+}
+.button{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.button > button{
+    background-color:orangered;
+    color: white;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+.last{
+    height: 150px;
+    width: 100%;
+     background-color: orangered;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 2%;
+     margin-top: 70px;
+}
+.lasttext1{
+    height: 200px;
+    width: 30%;
+    /* background-color: yellow; */
+}
+.lasttext2{
+    height: 200px;
+    width: 30%;
+    /* background-color: yellow; */
+}
+.lasttext3{
+    height: 200px;
+    width: 30%;
+    /* background-color: yellow; */
+}
+.lasttext1 > i{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext1 > h3{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext1 > p{
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext2 > i{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext2 > h3{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext2 > p{
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext3 > i{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext3 > h3{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lasttext3 > p{
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.last2{
+    height: 150px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.last2 > h3{
+    height: 30px;
+    width: 50%;
+    /* background-color: brown; */
+    font-size: 26px;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 300px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    gap: 6%;
+}
+.header-text{
+    height: 300px;
+    width: 45%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    padding-left: 1%;
+}
+.header-text > h2{
+    font-size: 64px;
+}
+.header-text > P{
+    font-size: 20px;
+}
+.header-img{
+    height: 250px;
+    width: 35%;
+    background-color: black; 
+    margin-top: 2%;
+    background-image: url(https://www.psdgraphics.com/file/apple-logo-wallpaper-1600x1200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.service{
+    height: 250px;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 50px;
+}
+.service-header{
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    /* background-color: blueviolet */
+}
+.service-header >h2{
+  padding-left: 35%;
+}
+.service-box{
+    height: 84%;
+    width: 92%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-left: 8%;
+    gap: 2%;
+}
+.service-card{
+    height: 80%;
+    width: 15%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid burlywood;
+    padding-top: 3%;
+}
+.service-card >i{
+    font-size: 50px;
+    color: black;
+}

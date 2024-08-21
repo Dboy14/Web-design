@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(220, 245, 235, 0.929);
+    display:flex ;
+    justify-content: space-around;
+}
+.text_opts{
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+    display:flex ;
+    justify-content: space-between;
+}
+.nav-text{
+    width:17% ;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    gap :4%;
+    align-items: center;
+}
+.nav-text > i{
+    font-size: 35px;
+    color: rgba(0, 255, 217, 0.906);
+}
+.nav-text > p{
+    font-size: 30px;
+}
+.nav-opts{
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.nav-opts > a{
+    color:  black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav_butt{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.nav_butt > button{
+    width: 60%;
+    height: 45%;
+    background-color: transparent;
+    border:  2px solid  rgba(0, 255, 217, 0.906);
+    color:black;
+}
+.hero-section{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(220, 245, 235, 0.929);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    /* background-color: red; */
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+.input-holder{
+    width: 60%;
+    height: 15%; 
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+} 
+.First{
+    font-size: 15px;
+}
+.Second{
+font-size: 17px;
+}
+.hero-text > h2{
+    font-size: 50px;
+}
+.input-holder > input{
+    width: 50%;
+    height: 100%;
+    border: none;
+    padding-left: 4%;
+}
+.input-holder > button{
+    width: 40%;
+    height: 100%;
+    border: none;
+    background-color: orangered;
+    color: bisque;
+}
+.last{
+    font-size: 13px;
+}
+.feature-card{
+    width: 100%;
+    height: 150px;
+    background-color:  rgba(220, 245, 235, 0.929) ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.feat-card{
+    width: 30%;
+    height: 100%;
+    /* background-color:  springgreen; */
+    display: flex;
+    gap: 3%;
+}
+.feat-icon{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    font-size: 35px;
+}
+.feat-text{
+    width: 85%;
+    height: 100%;
+    /* background-color: slateblue; */
+}
+.feat-text > h4{
+    margin-bottom: 7px;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    /* background-color: springgreen; */
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.header-text{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;    
+}
+.header-text > h2{
+    font-size: 43px;
+}
+.header-text > button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 15%;
+}
+.header-img{
+    width: 40%;
+    height: 100%;
+    background-color: slateblue;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/12/22/54/keychain-3221185_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service{
+    width: 100%;
+    height: 350px;
+    /* background-color: springgreen; */
+    margin-top: 100px;
+    padding-left: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.service-header{
+    /* background-color: red; */
+    width: 50%;
+    height: 15%;
+    font-size: 25px;
+}
+.service-box{
+    /* background-color: black; */
+    width: 89%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.service-cards{
+    width: 30%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.service-cards > i{
+    font-size: 20px;
+}
